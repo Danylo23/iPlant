@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-nav">
+        <h2 id="logo" class="navbar-brand" href="#">Iplant</h2>
+
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="container justify-content-center">
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+                <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Main</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Goods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">More</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-user"></i> Profile </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                            <a class="dropdown-item" href="#">Sing Up</a>
+                            <a class="dropdown-item" href="#">Login</a>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="admin.html">Admin</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href=""><img src="bascket.png" alt="" width="35px" height="30px"></a>
+                        </li>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+            <div class="login-reg-panel">
+                    <div class="login-info-box">
+                        <h2>Have an account?</h2>
+                        <label id="label-register" for="log-reg-show">Login</label>
+                        <input type="radio" name="active-log-panel" id="log-reg-show"  checked="checked">
+                    </div>
+                                        
+                    <div class="register-info-box">
+                        <h2>Don't have an account?</h2>
+                        <label id="label-login" for="log-login-show">Register</label>
+                        <input type="radio" name="active-log-panel" id="log-login-show">
+                    </div>
+                                        
+                    <div class="white-panel">
+                        <div class="login-show">
+                            <h2>LOGIN</h2>
+                            <input type="text" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <input type="button" value="Login">
+                            <a href="">Forgot password?</a>
+                        </div>
+                        <div class="register-show">
+                            <h2>REGISTER</h2>
+                            <input type="text" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <input type="password" placeholder="Confirm Password">
+                            <input type="button" value="Register">
+                        </div>
+                    </div>
+                </div>
+    </header>
+
+    
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src='function.js'></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

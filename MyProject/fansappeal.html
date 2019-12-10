@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-nav">
+            <h2 id="logo" class="navbar-brand" href="#">Iplant</h2>
+    
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="container justify-content-center">
+                <div class="collapse navbar-collapse" id="basicExampleNav">
+                    <ul class="nav navbar-nav flex-fill w-100 flex-nowrap">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Main</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="fansappeal.html">Fans appeal</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fas fa-user"></i> Profile </a>
+                            <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+                                <a class="dropdown-item" href="sing_up.html">Sing Up</a>
+                                <a class="dropdown-item" href="#">Login</a>
+                            </div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="admin.html">Admin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="bascket.html"><img src="bascket.png" alt="" width="35px" height="30px"></a>
+                            </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <header class="header">
+    <div class="container">
+        <br><br><br>
+        <h2 class="text-center">Зверненя фанів</h2><br>
+        <div class="container" id="comment-field">
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <br><button type="button" class="btn btn-dark pull-left" id="comment-add">Надіслати</button>
+                </div>
+                <div class="col-md-9">
+                    <textarea class="form-control" rows="6" placeholder="Написати звернення..."
+                        id="comment-body"></textarea>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </header>
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        <script src="indexedDB.js"></script>
+        <script src="function.js"></script>
+        <script src="fansappeal.js"></script>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
